@@ -160,3 +160,53 @@ main {
     font-weight: 700;
     font-size: 20px;
 }
+
+/* i do section */
+
+.what-i-do {
+    margin-top: 150px;
+}
+
+.work-section {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.work-text-section {
+    font-size: 18px;
+    text-align: center;
+    color: #757575;
+}
+
+.skills-containner {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.skil {
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+.skil-img {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 30px;
+}
+
+.skill-titls {
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+.skill-description {
+    color: #757575;
+    font-size: 16px;
+}
