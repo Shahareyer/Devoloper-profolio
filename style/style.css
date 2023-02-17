@@ -91,7 +91,6 @@ div article {
     background: #FD6E0A;
     color: white;
     border-radius: 5px;
-    background: #FD6E0A;
     font-size: 30px;
     padding: 5px 20px;
 }
@@ -117,8 +116,11 @@ main {
     margin: 0 auto;
 }
 
-.about {
+section {
     margin-top: 130px;
+}
+
+.about {
     border-radius: 10px;
     background-color: #FFF8F3;
     padding: 130px 150px;
@@ -163,10 +165,6 @@ main {
 
 /* i do section */
 
-.what-i-do {
-    margin-top: 150px;
-}
-
 .work-section {
     text-align: center;
     margin-bottom: 30px;
@@ -192,6 +190,7 @@ main {
     border-radius: 5px;
     background: #FFFFFF;
     padding: 30px;
+    height: 300px;
 }
 
 .skil-img {
@@ -209,4 +208,66 @@ main {
 .skill-description {
     color: #757575;
     font-size: 16px;
+}
+
+/* resome section */
+
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+
+.resume-item {
+    margin-bottom: 60px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 35px;
+
+}
+
+.resume-title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.resume .title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.resume .sub-title {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.resume .description {
+    color: #757575;
+    margin-top: 20px;
+}
+
+hr {
+    color: #D1D1D1;
+}
+
+.resume-div-btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.resume-btn {
+    text-decoration: none;
+    background: #FD6E0A;
+    color: white;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 8px 20px;
+
+
 }
